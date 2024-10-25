@@ -35,3 +35,38 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//************************ Memory ******************************
+// Stack ( Primitive) , Heap (Non Primitive)
+
+let myyoutubeName = "farxana@gmail.com"
+let anotherName = myyoutubeName
+
+console.log(anotherName);
+
+anotherName = "zarfu@gmail.com"
+
+console.log(myyoutubeName);
+
+console.log(anotherName);
+
+
+
+let userOne = {
+
+    name =Farza ,
+    age = 43 ,
+    email = "far@gmail.com"
+}
+
+let userTwo = userOne 
+
+userTwo.email ="zu@gmail.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
+
