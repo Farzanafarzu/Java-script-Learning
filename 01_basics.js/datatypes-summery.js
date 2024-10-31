@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -32,7 +32,7 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -43,29 +43,28 @@ console.log(typeof anotherId);
 let myyoutubeName = "farxana@gmail.com"
 let anotherName = myyoutubeName
 
-console.log(anotherName);
+//  console.log(anotherName);
 
 anotherName = "zarfu@gmail.com"
 
-console.log(myyoutubeName);
+// console.log(myyoutubeName);
 
-console.log(anotherName);
+//  console.log(anotherName);
 
 
 
 let userOne = {
 
-    name =Farza ,
-    age = 43 ,
-    email = "far@gmail.com"
-}
+    name: "Farza" , 
+     age: 43 , 
+    email: "far@gmail.com"
+ }
+ let userTwo = userOne 
 
-let userTwo = userOne 
+ userTwo.email = "zu@gmail.com"
 
-userTwo.email ="zu@gmail.com"
-
-console.log(userTwo.email);
-console.log(userOne.email);
+//  console.log(userTwo.email);
+//  console.log(userOne.email);
 
 
 
